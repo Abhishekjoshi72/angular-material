@@ -7,35 +7,7 @@
         <app-toolbar (SideNavToggle)="sidenav.toggle()"></app-toolbar>
 
         <main>
-            <div class="container" *ngIf="isRouterOutletEmpty">
-                <mat-card class="assignment-card">
-                    <mat-card-header>
-                        <mat-card-title>Introduction</mat-card-title>
-                    </mat-card-header>
-
-                    <mat-card-content>
-                        <ol>
-                            <li>Angular Material is a User Interface(UI) component library for Angular developers.</li>
-                            <li>Angular Material implements Google's Material Design specifications, providing over 30
-                                UI components that help you build attractive and functional web pages and web
-                                applications </li>
-                            <li><strong>Key Features:</strong>
-                                <ol>
-                                    <li>Pre-built Theme</li>
-                                    <li>UI component library</li>
-                                    <li>Compatibility</li>
-                                    <li>Accessibility</li>
-                                    <li>Internationalisation</li>
-                                    <li>Responsive layout</li>
-                                    <li>Performance</li>
-                                    <li>Integration with Angular</li>
-                                </ol>
-                            </li>
-                        </ol>
-                    </mat-card-content>
-                </mat-card>
-            </div>
             <router-outlet></router-outlet>
         </main>
     </mat-sidenav-content>
-</mat-sidenav-container>
+</mat-sidenav-container>    
